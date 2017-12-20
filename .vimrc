@@ -1,6 +1,8 @@
 set nocompatible
 filetype off
 
+set noeb vb t_vb=
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -21,6 +23,10 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'vim-airline/vim-airline-themes'
 
 Plugin 'scrooloose/syntastic'
+
+Plugin 'townk/vim-autoclose'
+
+Plugin 'myusuf3/numbers.vim'
 
 "let g:syntastic_c_compiler_options= \
   "'-Wall -Werror -Wextra -pedantic -std=c99'
