@@ -67,3 +67,5 @@ nnoremap B ^
 nnoremap E $
 nnoremap $ <nop>
 nnoremap ^ <nop>
+nnoremap H gT
+nnoremap L gt
