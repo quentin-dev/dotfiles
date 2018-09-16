@@ -38,5 +38,12 @@
 URxvt*inheritPixmap: true
 URxvt*transparent: true
 ! URxvt*shading: 0 to 99 darkens, 101 to 200 lightens
-URxvt*shading: 75
+URxvt*shading: 10
 URxvt.scrollBar: false
+
+!urxvt.perl-lib:                     /path/to/urxvt-font
+!urxvt.keysym.Control-Shift-Up:      perl:font:increment
+!urxvt.keysym.Control-Shift-Down:    perl:font:decrement
+!urxvt.perl-ext-common:              font
+
+URxvt.font:xft:bitstream vera sans mono:size=11:antialias=true
