@@ -39,7 +39,9 @@ syntax enable
 set t_Co=256
 set background=dark
 
-colorscheme base16-atelierheath
+colorscheme buddy
+
+"set ffs=mac,unix,dos
 
 highlight Normal ctermbg=None
 highlight nonText ctermbg=NONE
@@ -69,7 +71,3 @@ nnoremap $ <nop>
 nnoremap ^ <nop>
 nnoremap H gT
 nnoremap L gt
-
-
-set listchars=eol:$,trail:~,tab:>>
-autocmd BufWritePre * %s/\s\+$//e
