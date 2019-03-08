@@ -1,0 +1,10 @@
+! Swap CAPS LOCK & ESCAPE
+! remove Lock = Caps_Lock
+! add Lock = Caps_Lock
+! keycode 58 = Caps_Lock
+! keysym Caps_Lock = Escape
+
+remove Lock = Caps_Lock
+keysym Escape = Caps_Lock
+keysym Caps_Lock = Escape
+add Lock = Caps_Lock
